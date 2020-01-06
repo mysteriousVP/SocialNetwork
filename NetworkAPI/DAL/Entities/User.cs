@@ -10,8 +10,6 @@ namespace DAL.Entities
     {
         public string FirebaseToken { get; set; }
         [Required]
-        public string Gender { get; set; }
-        [Required]
         public DateTime DateOfBirth { get; set; }
         [Required]
         [MaxLength(25)]
@@ -20,6 +18,8 @@ namespace DAL.Entities
         public DateTime LastActive { get; set; }
         [MaxLength(1500)]
         public string Biography { get; set; }
+        [Required]
+        public string Gender { get; set; }
         [MaxLength(1500)]
         public string Hobbies { get; set; }
         [MaxLength(50)]

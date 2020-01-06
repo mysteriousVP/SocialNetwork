@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLLTest\\BLLTest.csproj": {}
+    "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\BLLTest\\BLLTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLLTest\\BLLTest.csproj": {
+    "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\BLLTest\\BLLTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLLTest\\BLLTest.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\BLLTest\\BLLTest.csproj",
         "projectName": "BLLTest",
-        "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLLTest\\BLLTest.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\BLLTest\\BLLTest.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLLTest\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\BLLTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

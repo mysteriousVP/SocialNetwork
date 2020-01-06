@@ -950,11 +950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

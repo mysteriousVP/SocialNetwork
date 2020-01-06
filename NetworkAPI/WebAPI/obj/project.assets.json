@@ -49,6 +49,19 @@
           "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Http.Features/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.0",
+          "System.IO.Pipelines": "4.7.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -355,6 +368,15 @@
           "ref/netstandard1.5/System.IO.dll": {}
         }
       },
+      "System.IO.Pipelines/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {}
+        }
+      },
       "System.Reflection/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -446,7 +468,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
-          "DAL": "1.0.0"
+          "DAL": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "3.1.0"
         },
         "compile": {
           "bin/placeholder/BLL.dll": {}
@@ -530,6 +553,22 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "microsoft.aspnetcore.cryptography.keyderivation.3.1.0.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/3.1.0": {
+      "sha512": "MzNJ2HbB4i5cIDlH5d62uUpHTPlmbjvAo2tx0x+wYRKJyFoRpxkNvFSB/eCCV/vf4K2+zhKkGC5uNyKvXgvaow==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.3.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.0": {
@@ -1179,6 +1218,29 @@
         "system.io.nuspec"
       ]
     },
+    "System.IO.Pipelines/4.7.0": {
+      "sha512": "S0L7oyWyQdVzD+5xIvcC8h44Vc+FY+qXDCLRh2+YsuBDORNphcxNX+tXR6ByLMjQ/7jDaXxsYBF6qbAr7ZIaFw==",
+      "type": "package",
+      "path": "system.io.pipelines/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.4.7.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Reflection/4.3.0": {
       "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
@@ -1648,11 +1710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1668,8 +1730,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLL\\BLL.csproj"
+            "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork\\NetworkAPI\\BLL\\BLL.csproj"
             }
           }
         }
