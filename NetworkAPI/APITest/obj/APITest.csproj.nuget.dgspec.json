@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\APITest\\APITest.csproj": {}
+    "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\APITest\\APITest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\APITest\\APITest.csproj": {
+    "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\APITest\\APITest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\APITest\\APITest.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\APITest\\APITest.csproj",
         "projectName": "APITest",
-        "projectPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\APITest\\APITest.csproj",
-        "packagesPath": "C:\\Users\\Vadym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\APITest\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\APITest\\APITest.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\APITest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vadym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

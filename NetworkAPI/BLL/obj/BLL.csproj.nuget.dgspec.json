@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\BLL\\BLL.csproj": {}
+    "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\BLL\\BLL.csproj": {
+    "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Vadym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vadym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\DAL.csproj"
+              "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\DAL.csproj"
               }
             }
           }
@@ -66,17 +66,17 @@
         }
       }
     },
-    "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\DAL.csproj": {
+    "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Vadym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vadym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,6 +105,12 @@
               "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
             }

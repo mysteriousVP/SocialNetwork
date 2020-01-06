@@ -4628,19 +4628,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vadym\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\BLLTest\\BLLTest.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLLTest\\BLLTest.csproj",
       "projectName": "BLLTest",
-      "projectPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\BLLTest\\BLLTest.csproj",
-      "packagesPath": "C:\\Users\\Vadym\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vadym\\Desktop\\SocialNetwork\\NetworkAPI\\BLLTest\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLLTest\\BLLTest.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\SocialNetwork-master\\NetworkAPI\\BLLTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vadym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
