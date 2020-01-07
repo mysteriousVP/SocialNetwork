@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using AutoMapper;
 using BLL.DTO;
 using DAL.Entities;
+
 namespace BLL.Configuration
 {
     public class AutoMapperConfuguration : Profile
@@ -54,7 +52,7 @@ namespace BLL.Configuration
                 })
                 .ForMember(dest => dest.Age, opt =>
                 {
-                    opt.ResolveUsing(d => d.DateOfBirth.CalculateAge());
+                    opt.MapFrom(d => d.DateOfBirth.CalculateUserAge());
                 }).ReverseMap();
             CreateMap<User, UserToDetaliedLookDTO>()
                 .ForMember(dest => dest.PhotoUrl, opt =>
@@ -64,7 +62,7 @@ namespace BLL.Configuration
                 })
                 .ForMember(dest => dest.Age, opt =>
                 {
-                    opt.ResolveUsing(d => d.DateOfBirth.CalculateAge());
+                    opt.MapFrom(d => d.DateOfBirth.CalculateUserAge());
                 });
         }
     }
