@@ -9,7 +9,7 @@ namespace DAL.Configuration
         public static int MESSAGE_MAX_LENGTH = 700;
         public static int POST_MAX_LENGTH = 2000;
         public static int COMMENT_MAX_LENGTH = 1000;
-        public static int USER_BIOGRAPHY_MAXLENGTH = 1500;
-        public static int USER_HOBBIES_MAXLENGTH = 1500;
+        public static int BIOGRAPHY_MAX_LENGTH = 1500;
+        public static int HOBBIES_MAX_LENGTH = 1500;
     }
 }
