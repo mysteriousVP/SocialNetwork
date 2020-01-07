@@ -10,6 +10,6 @@ namespace DAL.Interfaces
     {
         Task<Friendship> GetFriendship(int senderId, int recipientId);
         Task<IEnumerable<Friendship>> GetSentFriendships(int id);
-        Task<IEnumerable<Friendship>> GetRequestFriendShips(int id);
+        Task<IEnumerable<Friendship>> GetRequestFriendships(int id);
     }
 }

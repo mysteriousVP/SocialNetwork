@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DAL.Configuration
 {
-    public class LenghtRestrictions
+    public class LengthRestrictions
     {
         public static int MESSAGE_MAX_LENGTH = 700;
         public static int POST_MAX_LENGTH = 2000;

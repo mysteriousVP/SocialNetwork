@@ -26,9 +26,9 @@ namespace BLL.Services
         {
             Comment newComment = mapper.Map<Comment>(comment);
             
-            if (newComment.Content.Length > LenghtRestrictions.COMMENT_MAX_LENGTH)
+            if (newComment.Content.Length > LengthRestrictions.COMMENT_MAX_LENGTH)
             {
-                newComment.Content = newComment.Content.Substring(0, LenghtRestrictions.COMMENT_MAX_LENGTH);
+                newComment.Content = newComment.Content.Substring(0, LengthRestrictions.COMMENT_MAX_LENGTH);
             }
 
             unitOfWork.CommentRepository.Add(newComment);

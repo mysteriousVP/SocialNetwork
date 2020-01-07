@@ -21,7 +21,7 @@ namespace DAL.Repositories
             return context.Friendships.FirstOrDefault(f => f.SenderId == senderId && f.RecipientId == recipientId);
         }
 
-        public async Task<IEnumerable<Friendship>> GetRequestFriendShips(int id)
+        public async Task<IEnumerable<Friendship>> GetRequestFriendships(int id)
         {
             return context.Friendships.Where(f => f.RecipientId == id);
         }

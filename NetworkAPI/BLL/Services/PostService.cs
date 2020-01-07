@@ -26,9 +26,9 @@ namespace BLL.Services
         {
             Post newPost = mapper.Map<Post>(post);
 
-            if (newPost.Content.Length > LenghtRestrictions.POST_MAX_LENGTH)
+            if (newPost.Content.Length > LengthRestrictions.POST_MAX_LENGTH)
             {
-                newPost.Content = newPost.Content.Substring(0, LenghtRestrictions.POST_MAX_LENGTH);
+                newPost.Content = newPost.Content.Substring(0, LengthRestrictions.POST_MAX_LENGTH);
             }
 
             unitOfWork.PostRepository.Add(newPost);

@@ -8,7 +8,6 @@ namespace DAL.Entities
 {
     public class User : IdentityUser<int>
     {
-        public string FirebaseToken { get; set; }
         [Required]
         public DateTime DateOfBirth { get; set; }
         [Required]
